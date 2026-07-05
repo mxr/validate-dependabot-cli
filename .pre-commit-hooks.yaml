@@ -1,0 +1,8 @@
+- id: validate-dependabot-yaml
+  name: validate-dependabot-yaml
+  description: Validate Dependabot v2 YAML configuration files
+  entry: validate-dependabot-yaml
+  language: node
+  additional_dependencies:
+    - "@bugron/validate-dependabot-yaml"
+  files: ^\.github/dependabot\.ya?ml$
